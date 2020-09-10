@@ -1,0 +1,126 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.backg{
+    min-height: 100%;
+    background-image: url('file:///C:/Users/ADMIN/Documents/W3Schools%20Offline%20Latest%202018%20[Clone%20by%20Md%20Maruf%20Adnan%20Sami]/w3images/onepage_restaurant.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* position: fixed; */
+}
+.btn{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 20px;
+    font-size: 20px;
+    display: block;
+    position: relative;
+}
+#btn1{
+    position: relative;
+    top:40;
+    margin-left: 20px;
+}
+#btn2{
+    position: relative;
+    top:60;
+    margin-left: 20px;
+}
+
+.btn:hover{
+    background-color: blanchedalmond;
+    color: black;
+}
+.logo{
+    position: relative;
+    text-align:center;
+    top:200px;
+    color:white;
+    font-family: "Raleway", sans-serif;
+    font-size: 50px;
+}
+.move{
+    position: relative;
+     bottom: -250;
+}
+.move>p{
+    padding:15px;
+    color:#fff;
+}
+.menu{
+    background-color:#fff;
+    color: black;
+    width: 70%;
+    margin: auto;
+    position: relative;
+    top:-200;
+    font-size: 20px;
+    animation: animatezoom 0.6s;
+    display: none;
+}
+@keyframes animatezoom {
+    from{transform:scale(0)}
+    to{transform:scale(1)}
+}
+.menu h1{
+    background-color: black;
+    color: #fff;
+    font-size: 40px;
+    padding: 20px;
+}
+.menu>p{
+    padding:10px;
+}
+.count{
+    background-color:#fff;
+    color: black;
+    width: 70%;
+    margin: auto;
+    position: relative;
+    top:-200;
+    font-size: 20px;
+    display: none;
+    animation: animatezoom 0.6s;
+}
+.count input{
+    width: 95%;
+    padding: 15px;
+    margin: 10px;
+}
+.butin{
+    background-color: #fff;
+    color: black;
+    margin: 10px;
+    padding:10px;
+}
+.butin:hover{
+    background-color:lightgray;
+    margin: 10px;
+    padding:10px;
+}
+.count h1{
+    background-color: black;
+    color: #fff;
+    font-size: 40px;
+    padding: 20px;
+}
+.canc{
+    position:absolute;
+    right:10;
+    top: 10;
+    padding: 5px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    font-weight: lighter;
+}
+.error{
+    color:red;
+    margin-left:15px;
+    animation: animatezoom 3.6s;
+}

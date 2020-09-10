@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>store</title>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS/classworkjava.css">
+</head>
+<body>
+    <div class="backg">
+        <button id="btn1" class="btn">Menu</button>
+        <button id="btn2" class="btn">Contact</button>
+        <h1 class="logo">logo</h1>
+        <div class="move">
+        <p class="dat" style="font-size: 30px;">monday-friday 10-23 | saturday 14-02</p>
+        <p class="addr" style="font-size: 20px;">42 village St, New York</p>
+        <p class="footer">powered by <a href="" style="color: #fff;">w3.css</a></p>
+        </div>
+
+        <div class="menu" id="menu1">
+            <h1>Starter</h1>
+            <button class="canc" id="canc1"><i class="fa fa-close"></i></button>
+            <p>Tomato Soup $2.50</p>
+            <p>Chicken Salad $3.50</p>
+            <p>Bread and Butter $1.00</p>
+            <h1>Main Course</h1>
+            <p>Grilled Fish and Potatoes $8.50</p>
+            <p>Italian Pizza $5.50</p>
+            <p>Veggie Pasta $4.00</p>
+            <p>Chicken and Potatoes $6.50</p>
+            <p>Deluxe Burger $5.00</p>
+            <h1>Dessert</h1>
+            <p>Fruit Salad $2.50</p>
+            <p>Ice cream $2.00</p>
+            <p>Chocolate Cake $4.00</p>
+            <p>Cheese $5.50</p>
+        </div>
+        <div class="count" id="menu2">
+            <h1>Contact</h1>
+            <button class="canc" id="canc2"><i class="fa fa-close"></i></button>
+            <p>Reserve a table, ask for today's special or just send us a message:</p>
+            <input type="text" placeholder="Name" id="name1">
+            <p class="error"></p>
+            <input type="number" placeholder="How many people" id="hmp1">
+            <p class="error"></p>
+            <input type="date" id="date1">
+            <p class="error"></p>
+            <input type="text" placeholder="Message\Special requirement" id="mesg">
+            <p class="error"></p>
+            <button class="butin" id="subtn" onclick="validateForm ()">submit</button>
+        </div>
+    </div>
+
+    <script src="classworkjava.js"></script>
+</body>
+</html>
